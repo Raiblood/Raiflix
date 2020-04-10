@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+    <script src="js/main.js"></script>
+    <title>Raiflix</title>
+
+</head>
+<body>
+        <div class="window-margin">
+                <div class="window">
+            
+                    <aside class="sidebar">
+                        <div class="top-bar">
+                            <p class="logo">RAIFLIX</p>
+                        </div>
+            
+                        <div class="search-box">
+                            <input type="text" placeholder="Buscar..."/>
+                            <p class="fa fa-search"></p>
+                        </div>
+            
+                        <menu class="menu">
+                            <p class="menu-name">Mis Películas</p>
+                            <ul>
+                                <li class="active">
+                                    <a href="#">Acción / Aventura</a>
+                                    <ul>
+                                        <li><a href="#">Recientes</a></li>
+                                        <li class="active"><a href="#">Más Populares</a></li>
+                                        <li><a href="#">Proxímamente</a></li>
+                                        <li><a href="#">Por año</a></li>
+                                    </ul>
+                                </li>
+                                <li class="active"><a href="#">Animación</a>
+                                    <ul>
+                                            <li><a href="#">Recientes</a></li>
+                                            <li class="active"><a href="#">Más Populares</a></li>
+                                            <li><a href="#">Proxímamente</a></li>
+                                            <li><a href="#">Por año</a></li>
+                                        </ul>
+                                
+                                </li>
+                                <li><a href="#">Comedia</a></li>
+                                <li><a href="#">Documentales</a></li>
+                                <li><a href="#">Drama</a></li>
+                                <li><a href="#">Horror</a></li>
+                                <li><a href="#">Sci-Fi  / Fantasia</a></li>
+                                <li><a href="#">Lista A-Z</a></li>
+                            </ul>
+            
+                            <div class="separator"></div>
+            
+                            <ul class="no-bullets">
+                                <li><a href="#">Ultimas Noticias</a></li>
+                                <li><a href="#">Criticas y reviews</a></li>
+                                <li><a href="#">Contactanos</a></li>
+                                <li><a href="#">Top 250</a></li>
+                            </ul>
+            
+                            <div class="separator"></div>
+                        </menu>
+                    </aside>
+            
+            
+                    <div class="main" role="main">
+            
+                        <div class="top-bar">
+            
+                            <div class="profile-box">
+                                <div class="circle"></div>
+                                <span class="arrow fa fa-angle-down"></span>
+                            </div>
+            
+                            <ul class="top-menu">
+                                <li class="menu-icon trigger-sidebar-toggle">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </li>
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Registro</a></li>
+                                <li class="active"><a href="#">Peliculas</a></li>
+                                <li><a href="#">Television</a></li>
+                                <li><a href="#">Musica</a></li>
+                                <li><a href="#">Youtube reviews</a></li>
+                            </ul>
+            
+                        </div> <!-- top bar -->
+            
+            
+                        <div class="featured-movie">
+                            <img class="cover" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/backdrop_ggwxvq_1.jpg" alt="" class="cover" />
+                            <p class="corner-title">Staff pick</p>
+            
+                            <div class="bottom-bar">
+                                <div class="title-container">
+                                    <span class="fa fa-play-circle"></span>
+                                    <b>Reproducir</b>
+                                </div>
+            
+                                <div class="right">
+                                    <div class="stars">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star-half-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="share">
+                                        <icon class="fa fa-share-square"></icon> Compartir
+                                    </div>
+                                </div> <!-- right -->
+                            </div> <!-- bottom bar -->
+                        </div> <!-- featured -->
+            
+            
+                        <div class="movie-list">
+                            <div class="title-bar">
+                                <div class="left">
+                                    <p class="bold">Peliculas Más Interesantes</p>
+                                    <p class="grey">Crimen | Drama | Suspenso | Terror | Animación | Humor</p>
+                                </div> <!-- left -->
+                                <div class="right">
+                                    <a class="blue" href="#">Rating <i class="fa fa-angle-down"></i></a>
+                                    <a href="#">Más Reientes</a>
+                                    <a href="#">Más Antiguas</a>
+                                </div> <!-- right -->
+                            </div> <!-- title-bar -->
+            
+                            <ul class="list">
+                                <li>
+                                    <img src="img/parasitos.jpg" alt="" class="cover" />
+                                    <p class="title">Parásitos </p>
+                                    <p class="genre">Action, Crime</p>
+                                </li>
+                                <li>
+                                    <img src="img/el-faro.jpg" alt="" class="cover" />
+                                    <p class="title">El Faro (2019)</p>
+                                    <p class="genre">Action | Terror| Drama</p>
+                                </li>
+                                <li>
+                                    <img src="img/el-hoyo.jpg" alt="" class="cover" />
+                                    <p class="title">El Hoyo</p>
+                                    <p class="genre">Acción, Crimen, Terror</p>
+                                </li>
+                                <li>
+                                    <img src="img/punales-por-la-espalda.jpg" alt="" class="cover" />
+                                    <p class="title">Puñales por la Espalda</p>
+                                    <p class="genre">Acción | Suspense | Humor</p>
+                                </li>
+                                <li>
+                                    <img src="img/doctor-sleep-4k.jpg" alt="" class="cover" />
+                                    <p class="title">Doctor Sueño</p>
+                                    <p class="genre">Acción | Terror | Suspense</p>
+                                </li>
+                                <li>
+                                    <img src="img/mientras-dure-la-guerra.jpg" alt="" class="cover" />
+                                    <p class="title">Mientras dure la Guerra</p>
+                                    <p class="genre">Acción | Historica | Bélica</p>
+                                </li>
+                                <li>
+                                    <img src="img/quien-a-hierro-mata.jpg" alt="" class="cover" />
+                                    <p class="title">Quien a hierro Mata</p>
+                                    <p class="genre">Drama | Suspense</p>
+                                </li>
+                                <li>
+                                    <img src="img/joker-4k.jpg" alt="" class="cover" />
+                                    <p class="title">Joker (2019)</p>
+                                    <p class="genre">Crimen | Drama | Suspenso</p>
+                                </li>
+                                <!-- <li>
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/2014-03-08_140311_rj1det_1.png" alt="" class="cover" />
+                                    <p class="title">Captain America: The Winter Soilder</p>
+                                    <p class="genre">Action, Adventure</p>
+                                </li> -->
+                                <li>
+                                    <img src="img/el-jilguero.jpg" alt="" class="cover" />
+                                    <p class="title">El Jilgero</p>
+                                    <p class="genre">Drama</p>
+                                </li>
+                                <li>
+                                    <img src="img/la-vida-secreta-de-tus-mascotas-2-4k.jpg" alt="" class="cover" />
+                                    <p class="title">Mascotas 2 (2019)</p>
+                                    <p class="genre">Animación | Infantil</p>
+                                </li>
+                                <li>
+                                    <img src="img/dolemite-is-my-name.jpg" alt="" class="cover" />
+                                    <p class="title">Dolemite is my Name</p>
+                                    <p class="genre">Biografía | Comedia | Drama</p>
+                                </li>
+                                <li>
+                                    <img src="img/dumbo-4k.jpg" alt="" class="cover" />
+                                    <p class="title">Dumbo</p>
+                                    <p class="genre">Aventura | Infantil | Fantasía</p>
+                                </li>
+                                <li>
+                                    <img src="img/green-book.jpg" alt="" class="cover" />
+                                    <p class="title">Green Book</p>
+                                    <p class="genre">Biografía | Comedia | Drama </p>
+                                </li>
+                                <!-- <li>
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/2014-03-08_140412_oavbye_1.png" alt="" class="cover" />
+                                    <p class="title">Sin City: A Dame To Kill For</p>
+                                    <p class="genre">Action, Crime</p>
+                                </li> -->
+                                <li>
+                                    <img src="img/yo-tonya.jpg" alt="" class="cover" />
+                                    <p class="title">Yo, Tonya (2017)</p>
+                                    <p class="genre">Comedia | Drama | Biografía</p>
+                                </li>
+                                <li>
+                                    <img src="img/the-dirt.jpg" alt="" class="cover" />
+                                    <p class="title">The Dirt (2019)</p>
+                                    <p class="genre">Biografía | Comedia | Drama</p>
+                                </li>
+                                <li>
+                                    <img src="img/ralph-rompe-internet.jpg" alt="" class="cover" />
+                                    <p class="title">Ralph rompe Internet</p>
+                                    <p class="genre">Animación | Aventura | Comedia</p>
+                                </li>
+                                <li>
+                                    <img src="img/tully.jpg" alt="" class="cover" />
+                                    <p class="title">Tully (2018)</p>
+                                    <p class="genre">Comedia | Drama</p>
+                                </li>
+                                <li>
+                                    <img src="img/la-favorita.jpg" alt="" class="cover" />
+                                    <p class="title">La favorita (2018)t</p>
+                                    <p class="genre">Biografía | Drama | Historia</p>
+                                </li>
+                            </ul>
+            
+                            <a href="#" class="load-more">Ver Más Peliculas <span class="fa fa-plus"></span></a>
+            
+                        </div> <!-- movie list -->
+            
+            
+                    </div> <!-- main -->
+            
+                </div> <!-- window -->
+            </div> <!-- window margin -->
+                   
+    
+</body>
+</html>
